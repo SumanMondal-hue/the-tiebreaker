@@ -1,20 +1,107 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🚀 Run & Deploy Your AI Application
+
+Build, test, and deploy your AI application with your preferred development environment and deployment platform.
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📋 Prerequisites
 
-View your app in AI Studio: https://ai.studio/apps/13924014-87b1-4d97-b5db-4b0f6463a47d
+Before getting started, ensure you have:
 
-## Run Locally
+- **Node.js** (Latest LTS recommended)
+- **npm** (Comes with Node.js)
+- An API key for your preferred AI provider
 
-**Prerequisites:**  Node.js
+---
 
+## ⚙️ Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1️⃣ Clone the Repository
+
+```bash
+git clone <your-repository-url>
+cd <your-project-folder>
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Configure Environment Variables
+
+Create or edit the `.env.local` file and add your API key.
+
+```env
+API_KEY=your_api_key_here
+```
+
+> Replace `API_KEY` with the environment variable required by your project.
+
+### 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Open the Application
+
+After starting the development server, open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+or the local URL displayed in your terminal.
+
+---
+
+## 📦 Deployment
+
+You can deploy this project on any modern hosting platform, including:
+
+- ▲ Vercel
+- ⚡ Netlify
+- ☁️ Render
+- 🚀 Railway
+- 🐳 Docker
+- 🖥️ Self-hosted server
+
+Simply configure your environment variables on your chosen platform before deployment.
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── src/
+├── public/
+├── components/
+├── .env.local
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- JavaScript / TypeScript
+- Node.js
+- React
+- Modern AI SDK
+- npm
+
+---
+
+## 📄 License
+
+This project is available under the MIT License.
