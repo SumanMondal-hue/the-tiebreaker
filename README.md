@@ -2,40 +2,45 @@
 
 # 🚀 Run & Deploy Your AI Application
 
-Build, test, and deploy your AI application with your preferred development environment and deployment platform.
+Build, test, and deploy your AI application using your preferred development environment and hosting platform.
+
+[![Live Demo](https://img.shields.io/badge/🌐-Live_Demo-success?style=for-the-badge)](https://the-tiebreaker-1089198357275.asia-southeast1.run.app)
+
+### 🌍 Live Application
+**https://the-tiebreaker-1089198357275.asia-southeast1.run.app**
 
 </div>
 
 ---
 
-## 📋 Prerequisites
+# 📋 Prerequisites
 
-Before getting started, ensure you have:
+Before getting started, make sure you have:
 
-- **Node.js** (Latest LTS recommended)
-- **npm** (Comes with Node.js)
+- Node.js (Latest LTS recommended)
+- npm (Comes with Node.js)
 - An API key for your preferred AI provider
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
-### 1️⃣ Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone <your-repository-url>
 cd <your-project-folder>
 ```
 
-### 2️⃣ Install Dependencies
+## 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Configure Environment Variables
+## 3. Configure Environment Variables
 
-Create or edit the `.env.local` file and add your API key.
+Create a `.env.local` file and add your API key.
 
 ```env
 API_KEY=your_api_key_here
@@ -43,44 +48,53 @@ API_KEY=your_api_key_here
 
 > Replace `API_KEY` with the environment variable required by your project.
 
-### 4️⃣ Start the Development Server
+---
+
+# ▶️ Run the Application
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
----
-
-## 🌐 Open the Application
-
-After starting the development server, open your browser and visit:
+Then open:
 
 ```
 http://localhost:3000
 ```
 
-or the local URL displayed in your terminal.
+or the local URL shown in your terminal.
 
 ---
 
-## 📦 Deployment
+# 🌐 Live Demo
 
-You can deploy this project on any modern hosting platform, including:
+Your deployed application is available at:
+
+### 🔗 https://the-tiebreaker-1089198357275.asia-southeast1.run.app
+
+---
+
+# 🚀 Deployment
+
+This project can be deployed on any modern hosting platform, including:
 
 - ▲ Vercel
 - ⚡ Netlify
+- 🚂 Railway
 - ☁️ Render
-- 🚀 Railway
 - 🐳 Docker
+- ☁️ Google Cloud Run
 - 🖥️ Self-hosted server
 
-Simply configure your environment variables on your chosen platform before deployment.
+Configure your environment variables on your hosting provider before deployment.
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```
+```text
 .
 ├── src/
 ├── public/
@@ -92,16 +106,16 @@ Simply configure your environment variables on your chosen platform before deplo
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - JavaScript / TypeScript
 - Node.js
 - React
-- Modern AI SDK
+- AI SDK
 - npm
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is available under the MIT License.
+This project is licensed under the MIT License.
